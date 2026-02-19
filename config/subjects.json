@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "created_at": "2026-02-19",
+    "description": "知识推送系统 - 学科配置文件"
+  },
+  "user_profile": {
+    "name": "学习者",
+    "profession": "游戏设计/互联网从业者",
+    "email": "907733422@qq.com",
+    "exercise_style": "游戏/互联网应用向",
+    "preferred_send_time": "08:00"
+  },
+  "subjects": [
+    {
+      "id": "advanced_math",
+      "name": "高等数学",
+      "icon": "📐",
+      "status": "active",
+      "total_episodes": 40,
+      "current_episode": 0,
+      "description": "微积分、线性代数、概率论等数学基础",
+      "framework": [
+        {"chapter": 1, "title": "极限与连续", "episodes": [1, 2, 3, 4]},
+        {"chapter": 2, "title": "导数与微分", "episodes": [5, 6, 7, 8, 9]},
+        {"chapter": 3, "title": "导数应用", "episodes": [10, 11, 12, 13]},
+        {"chapter": 4, "title": "积分基础", "episodes": [14, 15, 16, 17]},
+        {"chapter": 5, "title": "定积分应用", "episodes": [18, 19, 20, 21]},
+        {"chapter": 6, "title": "多元函数微积分", "episodes": [22, 23, 24, 25, 26]},
+        {"chapter": 7, "title": "级数", "episodes": [27, 28, 29, 30]},
+        {"chapter": 8, "title": "线性代数基础", "episodes": [31, 32, 33, 34, 35]},
+        {"chapter": 9, "title": "概率论入门", "episodes": [36, 37, 38, 39, 40]}
+      ]
+    },
+    {
+      "id": "macro_economics",
+      "name": "宏观经济学",
+      "icon": "📈",
+      "status": "active",
+      "total_episodes": 30,
+      "current_episode": 0,
+      "description": "理解经济运行规律，从GDP到货币政策",
+      "framework": [
+        {"chapter": 1, "title": "经济学思维入门", "episodes": [1, 2]},
+        {"chapter": 2, "title": "通货膨胀与通缩", "episodes": [3, 4, 5]},
+        {"chapter": 3, "title": "货币与银行体系", "episodes": [6, 7, 8]},
+        {"chapter": 4, "title": "货币政策", "episodes": [9, 10, 11]},
+        {"chapter": 5, "title": "财政政策", "episodes": [12, 13, 14]},
+        {"chapter": 6, "title": "GDP与经济增长", "episodes": [15, 16, 17, 18]},
+        {"chapter": 7, "title": "失业与就业", "episodes": [19, 20, 21]},
+        {"chapter": 8, "title": "国际贸易与全球化", "episodes": [22, 23, 24]},
+        {"chapter": 9, "title": "汇率与外汇市场", "episodes": [25, 26, 27]},
+        {"chapter": 10, "title": "经济周期与危机", "episodes": [28, 29, 30]}
+      ]
+    },
+    {
+      "id": "stock_trading",
+      "name": "炒股",
+      "icon": "📊",
+      "status": "active",
+      "total_episodes": 35,
+      "current_episode": 0,
+      "description": "股票投资基础、技术分析、基本面分析与交易心理",
+      "framework": [
+        {"chapter": 1, "title": "股票基础知识", "episodes": [1, 2, 3]},
+        {"chapter": 2, "title": "技术分析入门", "episodes": [4, 5, 6]},
+        {"chapter": 3, "title": "K线与形态识别", "episodes": [7, 8, 9, 10]},
+        {"chapter": 4, "title": "均线系统", "episodes": [11, 12, 13]},
+        {"chapter": 5, "title": "成交量分析", "episodes": [14, 15, 16]},
+        {"chapter": 6, "title": "技术指标详解", "episodes": [17, 18, 19, 20]},
+        {"chapter": 7, "title": "基本面分析", "episodes": [21, 22, 23]},
+        {"chapter": 8, "title": "财务报表解读", "episodes": [24, 25, 26]},
+        {"chapter": 9, "title": "估值方法", "episodes": [27, 28, 29]},
+        {"chapter": 10, "title": "交易心理学", "episodes": [30, 31, 32]},
+        {"chapter": 11, "title": "风险管理与策略", "episodes": [33, 34, 35]}
+      ]
+    },
+    {
+      "id": "ux_ui_design",
+      "name": "UX/UI设计",
+      "icon": "🎨",
+      "status": "active",
+      "total_episodes": 25,
+      "current_episode": 0,
+      "description": "用户体验与界面设计原则",
+      "framework": [
+        {"chapter": 1, "title": "设计基础原则", "episodes": [1, 2, 3]},
+        {"chapter": 2, "title": "视觉层次与排版", "episodes": [4, 5, 6]},
+        {"chapter": 3, "title": "色彩理论与应用", "episodes": [7, 8, 9]},
+        {"chapter": 4, "title": "交互设计模式", "episodes": [10, 11, 12, 13]},
+        {"chapter": 5, "title": "用户研究方法", "episodes": [14, 15, 16]},
+        {"chapter": 6, "title": "信息架构", "episodes": [17, 18]},
+        {"chapter": 7, "title": "可用性与无障碍", "episodes": [19, 20]},
+        {"chapter": 8, "title": "设计系统", "episodes": [21, 22, 23]},
+        {"chapter": 9, "title": "游戏UI专题", "episodes": [24, 25]}
+      ]
+    },
+    {
+      "id": "game_system_design",
+      "name": "游戏系统设计",
+      "icon": "🎮",
+      "status": "active",
+      "total_episodes": 30,
+      "current_episode": 0,
+      "description": "游戏机制、数值策划与系统设计方法论",
+      "framework": [
+        {"chapter": 1, "title": "游戏设计基础概念", "episodes": [1, 2, 3]},
+        {"chapter": 2, "title": "核心循环设计", "episodes": [4, 5, 6]},
+        {"chapter": 3, "title": "数值策划基础", "episodes": [7, 8, 9, 10]},
+        {"chapter": 4, "title": "战斗系统设计", "episodes": [11, 12, 13, 14]},
+        {"chapter": 5, "title": "经济系统设计", "episodes": [15, 16, 17]},
+        {"chapter": 6, "title": "成长系统设计", "episodes": [18, 19, 20]},
+        {"chapter": 7, "title": "社交系统设计", "episodes": [21, 22]},
+        {"chapter": 8, "title": "任务与叙事系统", "episodes": [23, 24]},
+        {"chapter": 9, "title": "游戏平衡", "episodes": [25, 26, 27]},
+        {"chapter": 10, "title": "商业化设计", "episodes": [28, 29, 30]}
+      ]
+    },
+    {
+      "id": "music_composition",
+      "name": "编曲",
+      "icon": "🎵",
+      "status": "active",
+      "total_episodes": 20,
+      "current_episode": 0,
+      "description": "音乐制作、和声编配与游戏音乐",
+      "framework": [
+        {"chapter": 1, "title": "乐理基础", "episodes": [1, 2, 3]},
+        {"chapter": 2, "title": "和弦与和声进行", "episodes": [4, 5, 6, 7]},
+        {"chapter": 3, "title": "旋律写作", "episodes": [8, 9, 10]},
+        {"chapter": 4, "title": "节奏与律动", "episodes": [11, 12]},
+        {"chapter": 5, "title": "配器与音色选择", "episodes": [13, 14, 15]},
+        {"chapter": 6, "title": "歌曲结构与编排", "episodes": [16, 17]},
+        {"chapter": 7, "title": "游戏音乐专题", "episodes": [18, 19, 20]}
+      ]
+    }
+  ],
+  "schedule": {
+    "subjects_per_day": 2,
+    "rotation_strategy": "round_robin",
+    "skip_weekends": false
+  },
+  "global_episode": 0
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "知识库存档 - 存储所有已学习的知识点，支持回顾和关联查询"
+  },
+  "knowledge_entries": {},
+  "knowledge_graph": {
+    "nodes": [],
+    "edges": []
+  },
+  "tags_index": {},
+  "cross_subject_links": []
+}

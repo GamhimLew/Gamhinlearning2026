@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "last_updated": "2026-02-19",
+    "total_global_episodes": 0
+  },
+  "subjects_progress": {
+    "advanced_math": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    },
+    "macro_economics": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    },
+    "stock_trading": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    },
+    "ux_ui_design": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    },
+    "game_system_design": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    },
+    "music_composition": {
+      "current_episode": 0,
+      "completed_episodes": [],
+      "last_study_date": null
+    }
+  },
+  "rotation_index": 0,
+  "history": []
+}
