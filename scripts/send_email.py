@@ -29,6 +29,32 @@ def load_pending_email():
         return f.read()
 
 
+def archive_email(md_content, episode_num):
+    """
+    将已发送的邮件存档到 archive 目录
+    
+    Args:
+        md_content: 邮件的 Markdown 内容
+        episode_num: 期数
+    """
+    archive_dir = Path(__file__).parent.parent / "content" / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    
+    today = datetime.now().strftime("%Y-%m-%d")
+    filename = f"episode_{episode_num:03d}_{today}.md"
+    archive_path = archive_dir / filename
+    
+    # 检查是否已存在同期存档
+    if archive_path.exists():
+        print(f"⚠️ 存档已存在: {filename}，跳过存档")
+        return
+    
+    with open(archive_path, "w", encoding="utf-8") as f:
+        f.write(md_content)
+    
+    print(f"📁 邮件已存档: {filename}")
+
+
 def markdown_to_html(md_content):
     """
     将 Markdown 转换为 HTML
@@ -238,6 +264,10 @@ def main():
     # 发送邮件
     print(f"📤 正在发送邮件到 {to_email}...")
     send_email(subject, html_content, to_email)
+    
+    # 存档已发送的邮件
+    if episode != "?":
+        archive_email(md_content, int(episode))
     
     print("=" * 50)
     print("✅ 完成！")
