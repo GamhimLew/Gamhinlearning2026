@@ -136,8 +136,8 @@
     }
   ],
   "schedule": {
-    "subjects_per_day": 2,
-    "rotation_strategy": "round_robin",
+    "subjects_per_day": 6,
+    "rotation_strategy": "all",
     "skip_weekends": false
   },
   "global_episode": 0
