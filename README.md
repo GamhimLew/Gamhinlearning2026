@@ -46,9 +46,9 @@ knowledge-daily/
 
 | Secret 名称 | 值 |
 |-------------|-----|
-| `SMTP_USER` | 你的QQ邮箱地址 |
-| `SMTP_PASSWORD` | QQ邮箱授权码 |
-| `TO_EMAIL` | 接收邮件的地址 |
+| `SMTP_USER` | 发送邮件的QQ邮箱地址 |
+| `SMTP_PASSWORD` | QQ邮箱SMTP授权码（非登录密码） |
+| `TO_EMAIL` | 接收邮件的地址（可与发送地址相同） |
 
 ### 3. 每日使用流程
 
